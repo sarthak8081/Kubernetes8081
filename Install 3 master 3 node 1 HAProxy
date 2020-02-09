@@ -1,5 +1,6 @@
 Installing the client tools
-We will need two tools on the client machine: the Cloud Flare SSL tool to generate the different certificates, and the Kubernetes client, kubectl, to manage the Kubernetes cluster.
+We will need two tools on the client machine: the Cloud Flare SSL tool to generate the different certificates, and the Kubernetes client,
+kubectl, to manage the Kubernetes cluster.
 
 Installing cfssl
 1- Download the binaries.
