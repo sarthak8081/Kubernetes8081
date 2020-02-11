@@ -202,6 +202,15 @@ $ sudo -s
 # sh get-docker.sh
 # usermod -aG docker your-user
 
+IF
+#############################################################
+#############################################################
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic test"
+sudo apt install docker-ce
+~$ sudo docker version
+
 #############################################################
 Installing kubeadm, kublet, and kubectl
 1- Add the Google repository key.
