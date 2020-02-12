@@ -1,2 +1,1 @@
-kubeadm join 10.150.231.1:6443 --token 455uwi.uvslv75214rsqtuk \
-    --discovery-token-ca-cert-hash sha256:a4e739c0642a7d5c26c91f2f37250957e2e0113cd97d1db534825bd7e21baf5f 
+kubeadm join 10.150.231.1:6443 --token qndqkp.odfusm6gkjc7u6m7 --discovery-token-ca-cert-hash a4e739c0642a7d5c26c91f2f37250957e2e0113cd97d1db534825bd7e21baf5f
