@@ -1,0 +1,5 @@
+kubeadm join 10.150.231.3:6443 --token ble41z.fr43w2uvh7ag7kpj \
+    --discovery-token-ca-cert-hash sha256:a4e739c0642a7d5c26c91f2f37250957e2e0113cd97d1db534825bd7e21baf5f 
+
+
+kubectl create clusterrolebinding dashboard-admin -n default --clusterrole=cluster-admin --serviceaccount=default:dashboard
