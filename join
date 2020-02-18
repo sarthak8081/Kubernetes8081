@@ -1,1 +1,1 @@
-kubeadm join 10.150.231.2:6443 --token kenvka.uzpo5gs6cd4tw0la --discovery-token-ca-cert-hash sha256:06d37d9c771a5a5b86a60ad8fa6fca9d96f6f8a2c67ff30eee852ad55c72e54b 
+kubeadm join 10.150.231.1:6443 --token l8z5ru.ijw5ymmfjc3fjq3t --discovery-token-ca-cert-hash sha256:64194fe9349f03d3ac065e2165800e6c56ab813d6ac5796912df8e645f2bcb9f
