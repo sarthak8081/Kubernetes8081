@@ -2,3 +2,4 @@ https://medium.com/swlh/the-ultimate-guide-to-on-perm-kubernetes-84b564f0acc
 curl http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/service/default/kubernetes?namespace=default
 kubectl describe deployment kubernetes-dashboard --namespace=kube-system
 kubectl get pods --namespace=kube-system
+kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended/kubernetes-dashboard.yaml
