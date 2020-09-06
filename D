@@ -14,3 +14,6 @@ kubectl get nodes
 kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
 
 kubectl get deployment
+
+new terminal 
+kubectl proxy
