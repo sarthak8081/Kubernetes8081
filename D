@@ -3,3 +3,8 @@ curl http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/https:kubernet
 kubectl describe deployment kubernetes-dashboard --namespace=kube-system
 kubectl get pods --namespace=kube-system
 kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended/kubernetes-dashboard.yaml
+
+
+
+
+kubectl version
