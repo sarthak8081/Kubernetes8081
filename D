@@ -17,3 +17,6 @@ kubectl get deployment
 
 new terminal 
 kubectl proxy
+
+
+curl http://localhost:8001/version
