@@ -8,3 +8,5 @@ kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/
 
 
 kubectl version
+
+kubectl get nodes
