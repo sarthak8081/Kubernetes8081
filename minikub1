@@ -4,7 +4,7 @@ Install VirtualBox:
 sudo apt-get install -y virtualbox
 
 Install kubelet:
-curl -Lo kubectl https://storage.googleapis.com/kubernetes-release%2Frelease/v1.5.1/bin/linux/amd64/kubectl
+curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/Frelease/v1.5.1/bin/linux/amd64/kubectl
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin/kubectl
 
